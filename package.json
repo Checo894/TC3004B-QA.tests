@@ -1,0 +1,26 @@
+{
+  "name": "tc3004b-qa.tests",
+  "version": "1.0.0",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Checo894/TC3004B-QA.tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Checo894/TC3004B-QA.tests/issues"
+  },
+  "homepage": "https://github.com/Checo894/TC3004B-QA.tests#readme",
+  "description": "",
+  "dependencies": {
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.28.1"
+  }
+}
