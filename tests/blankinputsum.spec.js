@@ -39,6 +39,5 @@ describe('test2', function () {
     await driver.findElement(By.id("num1")).click()
     await driver.findElement(By.id("num1")).sendKeys("1")
     await driver.findElement(By.css("button:nth-child(1)")).click()
-    await driver.close()
   })
 })
