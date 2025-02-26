@@ -47,6 +47,5 @@ describe('Even values sum', function() {
     await driver.findElement(By.id("num2")).click()
     await driver.findElement(By.id("num2")).sendKeys("2")
     await driver.findElement(By.css("button:nth-child(1)")).click()
-    await driver.close()
   })
 })
