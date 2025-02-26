@@ -4,7 +4,7 @@ const { Builder, By } = require('selenium-webdriver');
 const assert = require('assert');
 const fs = require('fs');
 
-describe('test1', function () {
+describe('test2', function () {
   this.timeout(30000);
 
   let driver;
