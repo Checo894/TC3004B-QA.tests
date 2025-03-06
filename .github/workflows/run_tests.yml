@@ -21,7 +21,7 @@ jobs:
           chrome-version: 120
           install-dependencies: true
       - run: |
-            cd /frontend/src
+            cd .\frontend\src\
             python3 -m http.server 8000 &
             sleep 10 &&
             curl http://localhost:8000
