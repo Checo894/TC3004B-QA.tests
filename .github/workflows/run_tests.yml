@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: navigator
       - uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: 120
